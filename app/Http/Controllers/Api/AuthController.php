@@ -10,15 +10,9 @@ use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
-use Illuminate\Validation\ValidationException;
 
 class AuthController extends Controller
 {
-    /**
-     * Devuelve solo los campos que el frontend necesita.
-     * Centralizado aquí para que register() y login() devuelvan
-     * exactamente el mismo shape — consistencia garantizada.
-     */
     private function userResponse(User $user): array
     {
         return [
@@ -27,10 +21,6 @@ class AuthController extends Controller
             'email' => $user->email,
         ];
     }
-
-    // ─────────────────────────────────────────────────────────
-    // REGISTRO
-    // ─────────────────────────────────────────────────────────
 
     public function register(RegisterRequest $request): JsonResponse
     {
@@ -41,9 +31,6 @@ class AuthController extends Controller
         ]);
 
         Auth::login($user);
-
-        // ✅ Regenerar el ID de sesión también tras el registro
-        // Mismo vector de Session Fixation que en el login
         $request->session()->regenerate();
 
         return response()->json([
@@ -52,24 +39,17 @@ class AuthController extends Controller
         ], 201);
     }
 
-    // ─────────────────────────────────────────────────────────
-    // LOGIN
-    // ─────────────────────────────────────────────────────────
-
     public function login(LoginRequest $request): JsonResponse
     {
-        if (!Auth::attempt($request->only('email', 'password'))) {
-            // ✅ ValidationException en lugar de response()->json() manual:
-            // - Formato consistente con el resto de errores de validación
-            // - El throttle de Laravel funciona mejor con excepciones
-            // - El mensaje apunta al campo 'email' para no revelar
-            //   si fue el email o la contraseña lo que falló
-            throw ValidationException::withMessages([
-                'email' => ['Las credenciales proporcionadas son incorrectas.'],
-            ]);
-        }
+        // ✅ authenticate() ya contiene:
+        //    - Rate limiting (5 intentos por email+IP)
+        //    - Evento Lockout (para listeners o notificaciones)
+        //    - Auth::attempt()
+        //    - ValidationException si falla
+        $request->authenticate();
 
-        // ✅ Regenerar el ID de sesión tras autenticación exitosa
+        // ✅ Regenerar aquí, después de que authenticate() confirme
+        //    que el usuario es válido — el Form Request no lo hace
         $request->session()->regenerate();
 
         return response()->json([
@@ -78,18 +58,10 @@ class AuthController extends Controller
         ]);
     }
 
-    // ─────────────────────────────────────────────────────────
-    // LOGOUT
-    // ─────────────────────────────────────────────────────────
-
     public function logout(Request $request): JsonResponse
     {
         Auth::guard('web')->logout();
 
-        // ✅ invalidate() destruye los datos de la sesión actual
-        // ✅ regenerateToken() emite un nuevo token CSRF —
-        //    el token antiguo queda inválido, protegiendo contra
-        //    ataques donde el atacante conocía el CSRF token previo
         $request->session()->invalidate();
         $request->session()->regenerateToken();
 
