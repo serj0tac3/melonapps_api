@@ -3,84 +3,98 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
+use App\Http\Requests\Auth\LoginRequest;
+use App\Http\Requests\Auth\RegisterRequest;
 use App\Models\User;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Hash;
-use Illuminate\Support\Facades\Validator;
 use Illuminate\Http\JsonResponse;
-use Illuminate\Support\Facades\Auth; // 🚀 VITAL: Importamos la clase Auth
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Validation\ValidationException;
 
 class AuthController extends Controller
 {
     /**
-     * REGISTRO
+     * Devuelve solo los campos que el frontend necesita.
+     * Centralizado aquí para que register() y login() devuelvan
+     * exactamente el mismo shape — consistencia garantizada.
      */
-    public function register(Request $request): JsonResponse
+    private function userResponse(User $user): array
     {
-        $validator = Validator::make($request->all(), [
-            'name' => 'required|string|max:255',
-            'email' => 'required|string|email|max:255|unique:users',
-            'password' => 'required|string|min:8',
-        ]);
+        return [
+            'id'    => $user->id,
+            'name'  => $user->name,
+            'email' => $user->email,
+        ];
+    }
 
-        if ($validator->fails()) {
-            return response()->json(['errors' => $validator->errors()], 422);
-        }
+    // ─────────────────────────────────────────────────────────
+    // REGISTRO
+    // ─────────────────────────────────────────────────────────
 
+    public function register(RegisterRequest $request): JsonResponse
+    {
         $user = User::create([
-            'name' => $request->name,
-            'email' => $request->email,
+            'name'     => $request->name,
+            'email'    => $request->email,
             'password' => Hash::make($request->password),
         ]);
 
-        // 🚀 Iniciamos la SESIÓN WEB automáticamente tras el registro
         Auth::login($user);
 
+        // ✅ Regenerar el ID de sesión también tras el registro
+        // Mismo vector de Session Fixation que en el login
+        $request->session()->regenerate();
+
         return response()->json([
-            'message' => 'Usuario registrado con éxito',
-            'user' => $user
+            'message' => 'Cuenta creada con éxito.',
+            'user'    => $this->userResponse($user),
         ], 201);
     }
 
-    /**
-     * LOGIN
-     */
-    public function login(Request $request): JsonResponse
+    // ─────────────────────────────────────────────────────────
+    // LOGIN
+    // ─────────────────────────────────────────────────────────
+
+    public function login(LoginRequest $request): JsonResponse
     {
-        $credentials = $request->validate([
-            'email' => 'required|string|email',
-            'password' => 'required|string',
-        ]);
-
-        // 🚀 Validamos las credenciales y creamos la SESIÓN WEB
-        if (Auth::attempt($credentials)) {
-            // Regenerar la sesión evita ataques de robo de sesión (Session Fixation)
-            $request->session()->regenerate(); 
-
-            return response()->json([
-                'message' => 'Login exitoso',
-                'user' => Auth::user()
+        if (!Auth::attempt($request->only('email', 'password'))) {
+            // ✅ ValidationException en lugar de response()->json() manual:
+            // - Formato consistente con el resto de errores de validación
+            // - El throttle de Laravel funciona mejor con excepciones
+            // - El mensaje apunta al campo 'email' para no revelar
+            //   si fue el email o la contraseña lo que falló
+            throw ValidationException::withMessages([
+                'email' => ['Las credenciales proporcionadas son incorrectas.'],
             ]);
         }
 
+        // ✅ Regenerar el ID de sesión tras autenticación exitosa
+        $request->session()->regenerate();
+
         return response()->json([
-            'message' => 'Las credenciales son incorrectas'
-        ], 401);
+            'message' => 'Sesión iniciada correctamente.',
+            'user'    => $this->userResponse(Auth::user()),
+        ]);
     }
 
-    /**
-     * LOGOUT
-     */
+    // ─────────────────────────────────────────────────────────
+    // LOGOUT
+    // ─────────────────────────────────────────────────────────
+
     public function logout(Request $request): JsonResponse
     {
-        // 🚀 Cerramos la SESIÓN WEB y limpiamos las cookies
         Auth::guard('web')->logout();
 
+        // ✅ invalidate() destruye los datos de la sesión actual
+        // ✅ regenerateToken() emite un nuevo token CSRF —
+        //    el token antiguo queda inválido, protegiendo contra
+        //    ataques donde el atacante conocía el CSRF token previo
         $request->session()->invalidate();
         $request->session()->regenerateToken();
 
         return response()->json([
-            'message' => 'Sesión cerrada correctamente'
+            'message' => 'Sesión cerrada correctamente.',
         ]);
     }
 }

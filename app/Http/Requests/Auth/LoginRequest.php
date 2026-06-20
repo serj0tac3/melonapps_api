@@ -1,86 +1,72 @@
 <?php
 
-namespace App\Http\Requests\Auth;
+namespace App\Http\Controllers\Api;
 
-use Illuminate\Auth\Events\Lockout;
-use Illuminate\Contracts\Validation\ValidationRule;
-use Illuminate\Foundation\Http\FormRequest;
+use App\Http\Controllers\Controller;
+use App\Http\Requests\Auth\LoginRequest;
+use App\Http\Requests\Auth\RegisterRequest;
+use App\Models\User;
+use Illuminate\Http\JsonResponse;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\RateLimiter;
-use Illuminate\Support\Str;
-use Illuminate\Validation\ValidationException;
+use Illuminate\Support\Facades\Hash;
 
-class LoginRequest extends FormRequest
+class AuthController extends Controller
 {
-    /**
-     * Determine if the user is authorized to make this request.
-     */
-    public function authorize(): bool
-    {
-        return true;
-    }
-
-    /**
-     * Get the validation rules that apply to the request.
-     *
-     * @return array<string, ValidationRule|array<mixed>|string>
-     */
-    public function rules(): array
+    private function userResponse(User $user): array
     {
         return [
-            'email' => ['required', 'string', 'email'],
-            'password' => ['required', 'string'],
+            'id'    => $user->id,
+            'name'  => $user->name,
+            'email' => $user->email,
         ];
     }
 
-    /**
-     * Attempt to authenticate the request's credentials.
-     *
-     * @throws ValidationException
-     */
-    public function authenticate(): void
+    public function register(RegisterRequest $request): JsonResponse
     {
-        $this->ensureIsNotRateLimited();
+        $user = User::create([
+            'name'     => $request->name,
+            'email'    => $request->email,
+            'password' => Hash::make($request->password),
+        ]);
 
-        if (! Auth::attempt($this->only('email', 'password'), $this->boolean('remember'))) {
-            RateLimiter::hit($this->throttleKey());
+        Auth::login($user);
+        $request->session()->regenerate();
 
-            throw ValidationException::withMessages([
-                'email' => __('auth.failed'),
-            ]);
-        }
-
-        RateLimiter::clear($this->throttleKey());
+        return response()->json([
+            'message' => 'Cuenta creada con éxito.',
+            'user'    => $this->userResponse($user),
+        ], 201);
     }
 
-    /**
-     * Ensure the login request is not rate limited.
-     *
-     * @throws ValidationException
-     */
-    public function ensureIsNotRateLimited(): void
+    public function login(LoginRequest $request): JsonResponse
     {
-        if (! RateLimiter::tooManyAttempts($this->throttleKey(), 5)) {
-            return;
-        }
+        // ✅ authenticate() ya contiene:
+        //    - Rate limiting (5 intentos por email+IP)
+        //    - Evento Lockout (para listeners o notificaciones)
+        //    - Auth::attempt()
+        //    - ValidationException si falla
+        $request->authenticate();
 
-        event(new Lockout($this));
+        // ✅ Regenerar aquí, después de que authenticate() confirme
+        //    que el usuario es válido — el Form Request no lo hace
+        $request->session()->regenerate();
 
-        $seconds = RateLimiter::availableIn($this->throttleKey());
-
-        throw ValidationException::withMessages([
-            'email' => trans('auth.throttle', [
-                'seconds' => $seconds,
-                'minutes' => ceil($seconds / 60),
-            ]),
+        return response()->json([
+            'message' => 'Sesión iniciada correctamente.',
+            'user'    => $this->userResponse(Auth::user()),
         ]);
     }
 
-    /**
-     * Get the rate limiting throttle key for the request.
-     */
-    public function throttleKey(): string
+    public function logout(Request $request): JsonResponse
     {
-        return Str::transliterate(Str::lower($this->input('email')).'|'.$this->ip());
+        Auth::guard('web')->logout();
+
+        $request->session()->invalidate();
+        $request->session()->regenerateToken();
+
+        return response()->json([
+            'message' => 'Sesión cerrada correctamente.',
+        ]);
     }
 }
