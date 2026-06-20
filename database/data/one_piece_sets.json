@@ -1,0 +1,1355 @@
+[
+  {
+    "code": "ST-01 PRE",
+    "family": "ST",
+    "translations": {
+      "en": {
+        "name": "STARTER DECK-Straw Hat Crew-(Super Pre-Release Version)",
+        "release_date": "2022/07/30",
+        "image_url": "/images/sets/en/ST_01_pre_en.webp"
+      }
+    }
+  },
+  {
+    "code": "ST-02 PRE",
+    "family": "ST",
+    "translations": {
+      "en": {
+        "name": "STARTER DECK-Worst Generation-(Super Pre-Release Version)",
+        "release_date": "2022/07/30",
+        "image_url": "/images/sets/en/ST_02_pre_en.webp"
+      }
+    }
+  },
+  {
+    "code": "ST-03 PRE",
+    "family": "ST",
+    "translations": {
+      "en": {
+        "name": "STARTER DECK-The Seven Warlords of the Sea-(Super Pre-Release Version)",
+        "release_date": "2022/07/30",
+        "image_url": "/images/sets/en/ST_03_pre_en.webp"
+      }
+    }
+  },
+  {
+    "code": "ST-04 PRE",
+    "family": "ST",
+    "translations": {
+      "en": {
+        "name": "STARTER DECK-Animal Kingdom Pirates-(Super Pre-Release Version)",
+        "release_date": "2022/07/30",
+        "image_url": "/images/sets/en/ST_04_pre_en.webp"
+      }
+    }
+  },
+  {
+    "code": "ST-01",
+    "family": "ST",
+    "translations": {
+      "en": {
+        "name": "STARTER DECK-Straw Hat Crew",
+        "release_date": "2022/12/02",
+        "image_url": "/images/sets/en/ST_01_en.webp"
+      }
+    }
+  },
+  {
+    "code": "ST-02",
+    "family": "ST",
+    "translations": {
+      "en": {
+        "name": "STARTER DECK-Worst Generation",
+        "release_date": "2022/12/02",
+        "image_url": "/images/sets/en/ST_02_en.webp"
+      }
+    }
+  },
+  {
+    "code": "ST-03",
+    "family": "ST",
+    "translations": {
+      "en": {
+        "name": "STARTER DECK-The Seven Warlords of the Sea",
+        "release_date": "2022/12/02",
+        "image_url": "/images/sets/en/ST_03_en.webp"
+      }
+    }
+  },
+  {
+    "code": "ST-04",
+    "family": "ST",
+    "translations": {
+      "en": {
+        "name": "STARTER DECK-Animal Kingdom Pirates",
+        "release_date": "2022/12/02",
+        "image_url": "/images/sets/en/ST_04_en.webp"
+      }
+    }
+  },
+  {
+    "code": "ST-05",
+    "family": "ST",
+    "translations": {
+      "en": {
+        "name": "STARTER DECK ONE PIECE FILM edition",
+        "release_date": "2023/02/03",
+        "image_url": "/images/sets/en/ST_05.webp"
+      }
+    }
+  },
+  {
+    "code": "ST-06",
+    "family": "ST",
+    "translations": {
+      "en": {
+        "name": "STARTER DECK -Absolute Justice",
+        "release_date": "2023/03/10",
+        "image_url": "/images/sets/en/ST-06.webp"
+      }
+    }
+  },
+  {
+    "code": "ST-07",
+    "family": "ST",
+    "translations": {
+      "en": {
+        "name": "STARTER DECK -Big Mom Pirates",
+        "release_date": "2023/06/30",
+        "image_url": "/images/sets/en/ST_07.webp"
+      }
+    }
+  },
+  {
+    "code": "ST-08",
+    "family": "ST",
+    "translations": {
+      "en": {
+        "name": "STARTER DECK -Monkey D. Luffy",
+        "release_date": "2023/08/11",
+        "image_url": "/images/sets/en/ST_08.webp"
+      }
+    }
+  },
+  {
+    "code": "ST-09",
+    "family": "ST",
+    "translations": {
+      "en": {
+        "name": "STARTER DECK -Yamato",
+        "release_date": "2023/08/11",
+        "image_url": "/images/sets/en/ST_09.webp"
+      }
+    }
+  },
+  {
+    "code": "ST-10",
+    "family": "ST",
+    "translations": {
+      "en": {
+        "name": "ULTRA DECK -The Three Captains",
+        "release_date": "2023/11/10",
+        "image_url": "/images/sets/en/ST_10.webp"
+      }
+    }
+  },
+  {
+    "code": "ST-11",
+    "family": "ST",
+    "translations": {
+      "en": {
+        "name": "STARTER DECK -Uta",
+        "release_date": "2024/02/02",
+        "image_url": "/images/sets/en/ST_11.webp"
+      }
+    }
+  },
+  {
+    "code": "ST-12",
+    "family": "ST",
+    "translations": {
+      "en": {
+        "name": "STARTER DECK -Zoro and Sanji",
+        "release_date": "2024/03/15",
+        "image_url": "/images/sets/en/ST_12.webp"
+      }
+    }
+  },
+  {
+    "code": "ST-13",
+    "family": "ST",
+    "translations": {
+      "en": {
+        "name": "ULTRA DECK -The Three Brothers",
+        "release_date": "2024/04/24",
+        "image_url": "/images/sets/en/ST_13.webp"
+      }
+    }
+  },
+  {
+    "code": "ST-14",
+    "family": "ST",
+    "translations": {
+      "en": {
+        "name": "STARTER DECK -3D2Y",
+        "release_date": "2024/08/16",
+        "image_url": "/images/sets/en/ST_14.webp"
+      }
+    }
+  },
+  {
+    "code": "ST-15",
+    "family": "ST",
+    "translations": {
+      "en": {
+        "name": "STARTER DECK -RED Edward.Newgate",
+        "release_date": "2024/10/25",
+        "image_url": "/images/sets/en/ST_15.webp"
+      }
+    }
+  },
+  {
+    "code": "ST-16",
+    "family": "ST",
+    "translations": {
+      "en": {
+        "name": "STARTER DECK -GREEN Uta",
+        "release_date": "2024/10/25",
+        "image_url": "/images/sets/en/ST_16.webp"
+      }
+    }
+  },
+  {
+    "code": "ST-17",
+    "family": "ST",
+    "translations": {
+      "en": {
+        "name": "STARTER DECK -BLUE Donquixote Doflamingo",
+        "release_date": "2024/10/25",
+        "image_url": "/images/sets/en/ST_17.webp"
+      }
+    }
+  },
+  {
+    "code": "ST-18",
+    "family": "ST",
+    "translations": {
+      "en": {
+        "name": "STARTER DECK -PURPLE Monkey.D.Luffy",
+        "release_date": "2024/10/25",
+        "image_url": "/images/sets/en/ST_18.webp"
+      }
+    }
+  },
+  {
+    "code": "ST-19",
+    "family": "ST",
+    "translations": {
+      "en": {
+        "name": "STARTER DECK -BLACK Smoker",
+        "release_date": "2024/10/25",
+        "image_url": "/images/sets/en/ST_19.webp"
+      }
+    }
+  },
+  {
+    "code": "ST-20",
+    "family": "ST",
+    "translations": {
+      "en": {
+        "name": "STARTER DECK -YELLOW Charlotte Katakuri",
+        "release_date": "2024/10/25",
+        "image_url": "/images/sets/en/ST_20.webp"
+      }
+    }
+  },
+  {
+    "code": "ST-21",
+    "family": "ST",
+    "translations": {
+      "en": {
+        "name": "STARTER DECK EX -GEAR5",
+        "release_date": "2025/03/14",
+        "image_url": "/images/sets/en/ST_21.webp"
+      }
+    }
+  },
+  {
+    "code": "ST-22",
+    "family": "ST",
+    "translations": {
+      "en": {
+        "name": "STARTER DECK -Ace & Newgate",
+        "release_date": "2025/09/05",
+        "image_url": "/images/sets/en/ST_22.webp"
+      }
+    }
+  },
+  {
+    "code": "ST-23",
+    "family": "ST",
+    "translations": {
+      "en": {
+        "name": "STARTER DECK -RED Shanks",
+        "release_date": "2025/06/06",
+        "image_url": "/images/sets/en/ST_23.webp"
+      }
+    }
+  },
+  {
+    "code": "ST-24",
+    "family": "ST",
+    "translations": {
+      "en": {
+        "name": "STARTER DECK -GREEN Jewelry Bonney",
+        "release_date": "2025/06/06",
+        "image_url": "/images/sets/en/ST_24.webp"
+      }
+    }
+  },
+  {
+    "code": "ST-25",
+    "family": "ST",
+    "translations": {
+      "en": {
+        "name": "STARTER DECK -BLUE Buggy",
+        "release_date": "2025/06/06",
+        "image_url": "/images/sets/en/ST_25.webp"
+      }
+    }
+  },
+  {
+    "code": "ST-26",
+    "family": "ST",
+    "translations": {
+      "en": {
+        "name": "STARTER DECK -PURPLE/BLACK Monkey.D.Luffy",
+        "release_date": "2025/06/06",
+        "image_url": "/images/sets/en/ST_26.webp"
+      }
+    }
+  },
+  {
+    "code": "ST-27",
+    "family": "ST",
+    "translations": {
+      "en": {
+        "name": "STARTER DECK -BLACK Marshall.D.Teach",
+        "release_date": "2025/06/06",
+        "image_url": "/images/sets/en/ST_27.webp"
+      }
+    }
+  },
+  {
+    "code": "ST-28",
+    "family": "ST",
+    "translations": {
+      "en": {
+        "name": "STARTER DECK -GREEN/YELLOW Yamato",
+        "release_date": "2025/06/06",
+        "image_url": "/images/sets/en/ST_28.webp"
+      }
+    }
+  },
+  {
+    "code": "ST-29",
+    "family": "ST",
+    "translations": {
+      "en": {
+        "name": "STARTER DECK -Egghead",
+        "release_date": "2026/01/16",
+        "image_url": "/images/sets/en/ST_29.webp"
+      }
+    }
+  },
+  {
+    "code": "ST-30",
+    "family": "ST",
+    "translations": {
+      "en": {
+        "name": "STARTER DECK EX -Luffy & Ace",
+        "release_date": "2026/06/12",
+        "image_url": "/images/sets/en/ST_30.webp"
+      }
+    }
+  },
+  {
+    "code": "LD-01",
+    "family": "LD",
+    "translations": {
+      "en": {
+        "name": "Learn Together Deck Set",
+        "release_date": "2025-10-03",
+        "image_url": "/images/sets/en/LD_01.png"
+      }
+    }
+  },
+  {
+    "code": "OP-01",
+    "family": "OP",
+    "translations": {
+      "en": {
+        "name": "BOOSTER PACK -ROMANCE DAWN",
+        "release_date": "2022/12/02",
+        "image_url": "/images/sets/en/OP_01.webp"
+      }
+    }
+  },
+  {
+    "code": "OP-02",
+    "family": "OP",
+    "translations": {
+      "en": {
+        "name": "BOOSTER PACK -PARAMOUNT WAR",
+        "release_date": "2023/03/10",
+        "image_url": "/images/sets/en/OP_02.webp"
+      }
+    }
+  },
+  {
+    "code": "OP-03",
+    "family": "OP",
+    "translations": {
+      "en": {
+        "name": "BOOSTER PACK -PILLARS OF STRENGTH",
+        "release_date": "2023/06/30",
+        "image_url": "/images/sets/en/OP_03.webp"
+      }
+    }
+  },
+  {
+    "code": "OP-04",
+    "family": "OP",
+    "translations": {
+      "en": {
+        "name": "BOOSTER PACK -KINGDOMS OF INTRIGUE",
+        "release_date": "2023/09/22",
+        "image_url": "/images/sets/en/OP_04.webp"
+      }
+    }
+  },
+  {
+    "code": "OP-05",
+    "family": "OP",
+    "translations": {
+      "en": {
+        "name": "BOOSTER PACK -AWAKENING OF THE NEW ERA",
+        "release_date": "2023/12/08",
+        "image_url": "/images/sets/en/OP_05.webp"
+      }
+    }
+  },
+  {
+    "code": "OP-06",
+    "family": "OP",
+    "translations": {
+      "en": {
+        "name": "BOOSTER PACK -WINGS OF THE CAPTAIN",
+        "release_date": "2024/03/15",
+        "image_url": "/images/sets/en/OP_06.webp"
+      }
+    }
+  },
+  {
+    "code": "OP-07",
+    "family": "OP",
+    "translations": {
+      "en": {
+        "name": "BOOSTER PACK -500 YEARS IN THE FUTURE",
+        "release_date": "2024/06/28",
+        "image_url": "/images/sets/en/OP_07.webp"
+      }
+    }
+  },
+  {
+    "code": "OP-08",
+    "family": "OP",
+    "translations": {
+      "en": {
+        "name": "BOOSTER PACK -TWO LEGENDS",
+        "release_date": "2024/09/13",
+        "image_url": "/images/sets/en/OP_08.webp"
+      }
+    }
+  },
+  {
+    "code": "OP-09",
+    "family": "OP",
+    "translations": {
+      "en": {
+        "name": "BOOSTER PACK -EMPERORS IN THE NEW WORLD",
+        "release_date": "2024/12/13",
+        "image_url": "/images/sets/en/OP_09.webp"
+      }
+    }
+  },
+  {
+    "code": "OP-10",
+    "family": "OP",
+    "translations": {
+      "en": {
+        "name": "BOOSTER PACK -ROYAL BLOOD",
+        "release_date": "2025/03/21",
+        "image_url": "/images/sets/en/OP_10.webp"
+      }
+    }
+  },
+  {
+    "code": "OP-11",
+    "family": "OP",
+    "translations": {
+      "en": {
+        "name": "BOOSTER PACK -A FIST OF DIVINE SPEED",
+        "release_date": "2025/06/06",
+        "image_url": "/images/sets/en/OP_11.webp"
+      }
+    }
+  },
+  {
+    "code": "OP-12",
+    "family": "OP",
+    "translations": {
+      "en": {
+        "name": "BOOSTER PACK -LEGACY OF THE MASTER",
+        "release_date": "2025/08/22",
+        "image_url": "/images/sets/en/OP_12.webp"
+      }
+    }
+  },
+  {
+    "code": "OP-13",
+    "family": "OP",
+    "translations": {
+      "en": {
+        "name": "BOOSTER PACK -CARRYING ON HIS WILL",
+        "release_date": "2025/09/07",
+        "image_url": "/images/sets/en/OP_13.webp"
+      }
+    }
+  },
+  {
+    "code": "OP-14",
+    "family": "OP",
+    "translations": {
+      "en": {
+        "name": "BOOSTER PACK -THE AZURE SEA’S SEVEN",
+        "release_date": "2026/01/16",
+        "image_url": "/images/sets/en/OP_14.webp"
+      }
+    }
+  },
+  {
+    "code": "OP-15",
+    "family": "OP",
+    "translations": {
+      "en": {
+        "name": "BOOSTER PACK -ADVENTURE ON KAMI’S ISLAND",
+        "release_date": "2026/04/03",
+        "image_url": "/images/sets/en/OP_15.webp"
+      }
+    }
+  },
+  {
+    "code": "OP-16",
+    "family": "OP",
+    "translations": {
+      "en": {
+        "name": "BOOSTER PACK -THE TIME OF BATTLE",
+        "release_date": "2026/06/12",
+        "image_url": "/images/sets/en/OP_16.webp"
+      }
+    }
+  },
+  {
+    "code": "EB-01",
+    "family": "EB",
+    "translations": {
+      "en": {
+        "name": "EXTRA BOOSTER -MEMORIAL COLLECTION",
+        "release_date": "2024/03/03",
+        "image_url": "/images/sets/en/OB_01.webp"
+      }
+    }
+  },
+  {
+    "code": "EB-02",
+    "family": "EB",
+    "translations": {
+      "en": {
+        "name": "EXTRA BOOSTER -Anime 25th Collection",
+        "release_date": "2025/03/09",
+        "image_url": "/images/sets/en/OB_02.webp"
+      }
+    }
+  },
+  {
+    "code": "EB-03",
+    "family": "EB",
+    "translations": {
+      "en": {
+        "name": "EXTRA BOOSTER -ONE PIECE HEROINES EDITION",
+        "release_date": "2026/02/20",
+        "image_url": "/images/sets/en/OB_03.webp"
+      }
+    }
+  },
+  {
+    "code": "PRB-01",
+    "family": "PRB",
+    "translations": {
+      "en": {
+        "name": "PREMIUM BOOSTER -ONE PIECE CARD THE BEST",
+        "release_date": "2024/11/08",
+        "image_url": "/images/sets/en/PRB_01.webp"
+      }
+    }
+  },
+  {
+    "code": "PRB-02",
+    "family": "PRB",
+    "translations": {
+      "en": {
+        "name": "PREMIUM BOOSTER -ONE PIECE CARD THE BEST vol.2",
+        "release_date": "2025/10/03",
+        "image_url": "/images/sets/en/PRB_02.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-ORPP25-2",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Offline Regional Participation Pack 2025 Vol.2",
+        "release_date": "2025/10/09",
+        "image_url": "/images/sets/en/.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-ORFCS25-2",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Offline Regional Finalist Card Set 2025 Vol.2",
+        "release_date": "2025/12/23",
+        "image_url": "/images/sets/en/.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-ORCCS25-2",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Offline Regional Champion Card Set 2025 Vol.2",
+        "release_date": "2025/08/01",
+        "image_url": "/images/sets/en/.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-PCC-6",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Premium Card Collection -Best Selection Vol.6-",
+        "release_date": "2025/09/20",
+        "image_url": "/images/sets/en/PR_PCC_6.webp"
+      }
+    }
+  },
+  {
+    "code": "GC-01",
+    "family": "GC",
+    "translations": {
+      "en": {
+        "name": "ONE PIECE CARD GAME GIFT COLLECTION 2023",
+        "release_date": "2023/10/27",
+        "image_url": "/images/sets/en/PR-GC-01.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-PCC-25",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Premium Card Collection -25th Edition-",
+        "release_date": "2023/07/01",
+        "image_url": "/images/sets/en/PR-PCC-25.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-PP-22",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Included in Promotion Pack 2022",
+        "release_date": "2022/12/9",
+        "image_url": "/images/sets/en/PR-PP-22.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-SPR",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Super Pre-Release",
+        "release_date": "2022/09/30",
+        "image_url": "/images/sets/en/PR-SPR.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-ORPP-24-2",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Offline Regional Participation Pack 2024 Vol. 2",
+        "release_date": "2024/06/01",
+        "image_url": "/images/sets/en/PR-ORPP-24-2.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-PCC-FEST-2324",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Premium Card Collection -BANDAI CARD GAMES Fest. 23-24 Edition-",
+        "release_date": "2024-08-30",
+        "image_url": "/images/sets/en/PR_PCC_FEST2324.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-PCC-FILMRED",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Premium Card Collection -FILM RED Edition-",
+        "release_date": "2023-11-24",
+        "image_url": "/images/sets/en/.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-SWS-BS",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Seven Warlords of the Sea Binder Set",
+        "release_date": "2025/09/01",
+        "image_url": "/images/sets/en/PR-SWS-BS.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-PCC-LIVEACTION",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Premium Card Collection -Live Action Edition-",
+        "release_date": "2024-04-26",
+        "image_url": "/images/sets/en/PR-PCC-LIVEACTIO.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-TP1",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Tournament Pack Vol.1",
+        "release_date": "2022-12-02",
+        "image_url": "/images/sets/en/PR-TP1.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-FR-PCS",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Included in FILM RED Promotion Card Set",
+        "release_date": "2022-11-04",
+        "image_url": "/images/sets/en/PR-FR-PCS.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-TP7",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Tournament Pack Vol.7",
+        "release_date": "2024-06-28",
+        "image_url": "/images/sets/en/PR-TP7.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-PPC-1",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Included in Pirates Party Card Vol.1",
+        "release_date": "2022-12-02",
+        "image_url": "/images/sets/en/PR_PPC_1.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-SB23-1",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Sealed Battle 2023 Vol.1",
+        "release_date": "2023-11-24",
+        "image_url": "/images/sets/en/PR_SB23_1.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-ST11-DBPP",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "ST-11 Uta Deck Battle Participation Pack",
+        "release_date": "2024-02-02",
+        "image_url": "/images/sets/en/PR_ST11_DBPP.webp"
+      }
+    }
+  },
+ {
+    "code": "PRB-01",
+    "family": "PRB",
+    "translations": {
+      "en": {
+        "name": "ONE PIECE CARD THE BEST",
+        "release_date": "2024-11-08",
+        "image_url": "/images/sets/en/PRB_01.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-PRE-OP02",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Pre-Release OP02",
+        "release_date": "2023-03-03",
+        "image_url": "/images/sets/en/PR_PRE_OP02.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-PPC-2",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Included in Pirates Party Card Vol.2",
+        "release_date": "2023-05-01",
+        "image_url": "/images/sets/en/PR_PPC_2.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-EP-2",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Included in Event Pack Vol.2",
+        "release_date": "2023-06-01",
+        "image_url": "/images/sets/en/PR_EP_2.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-EP-1",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Included in Event Pack Vol.1",
+        "release_date": "",
+        "image_url": "/images/sets/en/PR_EP_1.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-HBP",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Heroines Battle Pack",
+        "release_date": "2026-02-28",
+        "image_url": "/images/sets/en/PR_HBP.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-HBWP",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Heroines Battle Winner Pack",
+        "release_date": "2026-02-28",
+        "image_url": "/images/sets/en/PR_HBWP.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-RE-OP15-EB04",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "OP15-EB04 Release Event",
+        "release_date": "2026-06-26",
+        "image_url": "/images/sets/en/PR_RE_OP15_EB04.webp"
+      }
+    }
+  },
+  {
+    "code": "PRB-02",
+    "family": "PRB",
+    "translations": {
+      "en": {
+        "name": "ONE PIECE CARD THE BEST vol.2",
+        "release_date": "",
+        "image_url": "/images/sets/en/PRB_02.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-SBK-1",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Sealed Battle Kit Vol.1",
+        "release_date": "",
+        "image_url": "/images/sets/en/PR_SBK_1.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-EP-5",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Event Pack Vol.5",
+        "release_date": "",
+        "image_url": "/images/sets/en/PR_EP_5.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-PPC-3",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Pirates Party Vol.3",
+        "release_date": "",
+        "image_url": "/images/sets/en/PR_PPC_3.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-PRE-OP04",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Pre-Release OP04",
+        "release_date": "",
+        "image_url": "/images/sets/en/PR_PRE_OP04.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-AX-23",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Anime Expo 2023",
+        "release_date": "",
+        "image_url": "/images/sets/en/PR_AX_23.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-PPC-4",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Pirates Party Vol.4",
+        "release_date": "",
+        "image_url": "/images/sets/en/PR_PPC_4.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-PPC-5",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Pirates Party Vol.5",
+        "release_date": "",
+        "image_url": "/images/sets/en/PR_PPC_5.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-EP-3",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Event Pack Vol.3",
+        "release_date": "",
+        "image_url": "/images/sets/en/PR_EP_3.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-DHD-24",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Dreamhack Dallas 2024",
+        "release_date": "",
+        "image_url": "/images/sets/en/PR_DHD_24.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-PRE-OP06",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Pre-Release OP06",
+        "release_date": "",
+        "image_url": "/images/sets/en/PR_PRE_OP06.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-RE-ST15-20",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "ST15-20 Release Event",
+        "release_date": "",
+        "image_url": "/images/sets/en/PR_RE_ST15_20.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-PPC-6",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Pirates Party Vol.6",
+        "release_date": "",
+        "image_url": "/images/sets/en/PR_PPC_6.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-CS2526-EP",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "CS 25-26 Event Pack",
+        "release_date": "",
+        "image_url": "/images/sets/en/PR_CS2526_EP.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-CS2526-EP-FIN",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "CS 25-26 Event Pack Finalist Ver.",
+        "release_date": "",
+        "image_url": "/images/sets/en/PR_CS2526_EP_FIN.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-PPC-7",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Pirates Party Vol.7",
+        "release_date": "",
+        "image_url": "/images/sets/en/PR_PPC_7.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-CS2526-TPP-2",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "CS 25-26 Top Player Pack 2",
+        "release_date": "",
+        "image_url": "/images/sets/en/PR_CS2526_TPP_2.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-CS2526-FIN-2",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "CS 25-26 Finalist Card Set 2",
+        "release_date": "",
+        "image_url": "/images/sets/en/PR_CS2526_FIN_2.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-CS2526-WIN-2",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "CS 25-26 Winner Card Set 2",
+        "release_date": "",
+        "image_url": "/images/sets/en/PR_CS2526_WIN_2.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-EP-6",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Event Pack Vol.6",
+        "release_date": "",
+        "image_url": "/images/sets/en/PR_EP_6.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-PRE-OP08",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Pre-Release OP08",
+        "release_date": "",
+        "image_url": "/images/sets/en/PR_PRE_OP08.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-OFFREG-PP-25-1",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Offline Regional Participation Pack 2025 Vol.1",
+        "release_date": "",
+        "image_url": "/images/sets/en/PR_OFFREG_PP_25_1.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-OFFREG-FIN-2526-S1",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Offline Regional Finalist Card Set 25-26 Season 1",
+        "release_date": "",
+        "image_url": "/images/sets/en/PR_OFFREG_FIN_2526_S1.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-OFFREG-CHA-2526-S1",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Offline Regional Champion Card Set 25-26 Season 1",
+        "release_date": "",
+        "image_url": "/images/sets/en/PR_OFFREG_CHA_2526_S1.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-ONREG-PP-2526-S1",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Online Regional Participation Pack 25-26 Season 1",
+        "release_date": "",
+        "image_url": "/images/sets/en/PR_ONREG_PP_2526_S1.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-ONREG-FIN-2526-S1",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Online Regional Finalist Card Set 25-26 Season 1",
+        "release_date": "",
+        "image_url": "/images/sets/en/PR_ONREG_FIN_2526_S1.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-ONREG-CHA-2526-S1",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Online Regional Champion Card Set 25-26 Season 1",
+        "release_date": "",
+        "image_url": "/images/sets/en/PR_ONREG_CHA_2526_S1.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-RE-OP11",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "OP-11 Release Event",
+        "release_date": "",
+        "image_url": "/images/sets/en/PR_RE_OP11.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-S2O2B",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Store 2-on-2 Battle",
+        "release_date": "",
+        "image_url": "/images/sets/en/PR_S2O2B.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-EP-7",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Event Pack vol.7",
+        "release_date": "",
+        "image_url": "/images/sets/en/PR_EP_7.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-RE-OP12",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "OP-12 Release Event",
+        "release_date": "",
+        "image_url": "/images/sets/en/PR_RE_OP12.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-RE-OP14-EB04",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "OP14-EB04 Release Event",
+        "release_date": "",
+        "image_url": "/images/sets/en/PR_RE_OP14_EB04.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-EP-8",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Event Pack Vol. 8",
+        "release_date": "",
+        "image_url": "/images/sets/en/PR_EP_8.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-ST25-4",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Store Tournament 2025 Vol. 4",
+        "release_date": "",
+        "image_url": "/images/sets/en/PR_ST25_4.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-TP26-2",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Tournament Pack 2026 Vol. 2",
+        "release_date": "",
+        "image_url": "/images/sets/en/PR_TP26_2.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-WP26-2",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Winner Pack 2026 Vol. 2",
+        "release_date": "",
+        "image_url": "/images/sets/en/PR_WP26_2.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-PP26-1",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Pirates Party 2026 Vol. 1",
+        "release_date": "",
+        "image_url": "/images/sets/en/PR_PP26_1.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-RE-OP16",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "OP-16 Release Event",
+        "release_date": "",
+        "image_url": "/images/sets/en/PR_RE_OP16.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-PCC-BS3",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Premium Card Collection -Best Selection Vol.3-",
+        "release_date": "",
+        "image_url": "/images/sets/en/PR_PCC_BS3.webp"
+      }
+    }
+  },
+  {
+    "code": "PR-IB-6",
+    "family": "PROMO",
+    "translations": {
+      "en": {
+        "name": "Illustration Box Vol.6",
+        "release_date": "",
+        "image_url": "/images/sets/en/PR_IB_6.webp"
+      }
+    }
+  }
+]
