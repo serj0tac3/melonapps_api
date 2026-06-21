@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
-use App\Models\CardTemplate; // ✅ CardTemplate, no Card
+use App\Models\CardTemplate;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 
@@ -13,8 +13,8 @@ class WishlistController extends Controller
     {
         $wishlist = $request->user()
             ->wishlists()
-            ->with(['cardSet:id,name,code'])
-            ->latest('wishlists.created_at')
+            ->with(['set:id,name,code']) 
+            ->latest() 
             ->get();
 
         return response()->json(['data' => $wishlist]);
