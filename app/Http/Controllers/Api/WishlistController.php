@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
-use App\Models\CardTemplate; 
+use App\Models\CardTemplate;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 
@@ -13,9 +13,7 @@ class WishlistController extends Controller
     {
         $wishlist = $request->user()
             ->wishlists()
-            // 1. FIX: Cambiamos cardSet a set (asegúrate de que en el modelo CardTemplate la función se llama set())
-            ->with(['set:id,name,code']) 
-            // 2. FIX: Usamos latest() genérico para que no rompa el SQL buscando la tabla pivote
+            ->with(['cardSet:id,name,code']) 
             ->latest() 
             ->get();
 
@@ -24,7 +22,6 @@ class WishlistController extends Controller
 
     public function store(Request $request): JsonResponse
     {
-        // ✅ DEJAMOS TU CÓDIGO INTACTO PORQUE FUNCIONA PERFECTO
         $request->validate([
             'card_template_id' => ['required', 'integer', 'exists:card_templates,id'],
         ]);
