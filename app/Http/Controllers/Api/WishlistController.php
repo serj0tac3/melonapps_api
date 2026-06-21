@@ -3,21 +3,32 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
-use App\Models\CardTemplate;
-use Illuminate\Http\JsonResponse;
+use App\Models\CardTemplate; 
+use App\Http\Resources\CardResource; // 🚀 IMPORTAMOS EL RESOURCE
 use Illuminate\Http\Request;
 
 class WishlistController extends Controller
 {
-    public function index(Request $request): JsonResponse
+    public function index(Request $request)
     {
-        $wishlist = $request->user()
-            ->wishlists()
-            ->with(['cardSet:id,code,family']) 
+        $user = $request->user();
+
+        $wishlist = $user->wishlists()
+            ->with([
+                'cardSet:id,code,family',
+                'translations', // 🚀 CRÍTICO: Para que el Resource monte la imagen y el nombre
+                'userCards' => function ($q) use ($user) { // Para que el Resource calcule 'owned_copies'
+                    $q->where('user_id', $user->id);
+                }
+            ])
+            // Para que el Resource sepa que sí está en deseados y marque el corazón
+            ->withExists(['wishlists as is_wishlisted' => function ($q) use ($user) {
+                $q->where('user_id', $user->id);
+            }])
             ->latest() 
             ->get();
 
-        return response()->json(['data' => $wishlist]);
+        return CardResource::collection($wishlist);
     }
 
     public function store(Request $request): JsonResponse
