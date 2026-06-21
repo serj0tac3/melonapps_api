@@ -25,12 +25,12 @@ class WishlistController extends Controller
         $card = Card::findOrFail($cardId);
         $user = $request->user();
 
-        // ✅ firstOrCreate evita duplicados sin necesitar verificar antes
-        $user->wishlists()->syncWithoutDetaching([$card->id]);
+        // ✅ firstOrCreate en la tabla pivote — idempotente y sin excepciones por duplicados
+        if (!$user->wishlists()->where('card_id', $cardId)->exists()) {
+            $user->wishlists()->attach($cardId);
+        }
 
-        return response()->json([
-            'message' => 'Carta añadida a la wishlist.',
-        ], 201);
+        return response()->json(['message' => 'Carta añadida a la wishlist.'], 201);
     }
 
     public function destroy(Request $request, int $cardId): JsonResponse

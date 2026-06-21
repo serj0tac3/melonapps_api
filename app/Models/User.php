@@ -2,50 +2,47 @@
 
 namespace App\Models;
 
-// use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Database\Factories\UserFactory;
 use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Attributes\Hidden;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany; // ✅ Import que faltaba
+use Illuminate\Database\Eloquent\Relations\HasMany;        // ✅ Para userCards()
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
+use App\Models\Card;                                        // ✅ Import que faltaba
+use App\Models\UserCard;
 
 #[Fillable(['name', 'email', 'password'])]
 #[Hidden(['password', 'remember_token'])]
 class User extends Authenticatable
 {
-    /** @use HasFactory<UserFactory> */
     use HasApiTokens, HasFactory, Notifiable;
 
-    /**
-     * Get the attributes that should be cast.
-     *
-     * @return array<string, string>
-     */
     protected function casts(): array
     {
         return [
             'email_verified_at' => 'datetime',
-            'password' => 'hashed',
+            'password'          => 'hashed',
         ];
     }
 
-    /**
-     * RELACIÓN: La colección de cartas del usuario (Mi Bóveda).
-     */
-    public function collection()
+    public function collection(): BelongsToMany
     {
         return $this->belongsToMany(Card::class, 'card_user')
                     ->withPivot('quantity')
                     ->withTimestamps();
     }
 
-    /**
-     * RELACIÓN: La bóveda del usuario (cartas que posee, incluyendo foils y cantidades).
-     */
-    public function userCards()
+    public function userCards(): HasMany
     {
         return $this->hasMany(UserCard::class);
+    }
+
+    public function wishlists(): BelongsToMany
+    {
+        return $this->belongsToMany(Card::class, 'wishlists')
+                    ->withTimestamps();
     }
 }
