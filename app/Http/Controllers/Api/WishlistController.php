@@ -13,7 +13,7 @@ class WishlistController extends Controller
     {
         $wishlist = $request->user()
             ->wishlists()
-            ->with(['cardSet:id,name,code']) 
+            ->with(['cardSet:id,code,family']) 
             ->latest() 
             ->get();
 
