@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
-use App\Models\Card;
+use App\Models\CardTemplate; // ✅ CardTemplate, no Card
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 
@@ -20,13 +20,16 @@ class WishlistController extends Controller
         return response()->json(['data' => $wishlist]);
     }
 
-    // WishlistController.php — store() ya recibe cardId por URL
-    public function store(Request $request, int $cardId): JsonResponse
+    public function store(Request $request): JsonResponse
     {
-        $card = Card::findOrFail($cardId);
-        $user = $request->user();
+        $request->validate([
+            'card_template_id' => ['required', 'integer', 'exists:card_templates,id'],
+        ]);
 
-        if (!$user->wishlists()->where('card_id', $cardId)->exists()) {
+        $cardId = $request->integer('card_template_id');
+        $user   = $request->user();
+
+        if (!$user->wishlists()->where('card_template_id', $cardId)->exists()) {
             $user->wishlists()->attach($cardId);
         }
 
@@ -37,8 +40,6 @@ class WishlistController extends Controller
     {
         $request->user()->wishlists()->detach($cardId);
 
-        return response()->json([
-            'message' => 'Carta eliminada de la wishlist.',
-        ]);
+        return response()->json(['message' => 'Carta eliminada de la wishlist.']);
     }
 }
