@@ -62,9 +62,8 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::get('/vault/sets-summary',      [CollectionController::class, 'setsSummary']);
 
     // ── Wishlist ─────────────────────────────────────────────────────────
-    // ✅ Separado en su propio controlador — responsabilidad única
-    Route::get('/wishlist',                 [WishlistController::class, 'index']);
-    Route::post('/wishlist',                [WishlistController::class, 'store']);
-    Route::delete('/wishlist/{cardId}',     [WishlistController::class, 'destroy']);
+    Route::get('/wishlist',             [WishlistController::class, 'index']);
+    Route::post('/wishlist/{cardId}',   [WishlistController::class, 'store']);
+    Route::delete('/wishlist/{cardId}', [WishlistController::class, 'destroy']);
 
 });

@@ -20,12 +20,12 @@ class WishlistController extends Controller
         return response()->json(['data' => $wishlist]);
     }
 
+    // WishlistController.php — store() ya recibe cardId por URL
     public function store(Request $request, int $cardId): JsonResponse
     {
         $card = Card::findOrFail($cardId);
         $user = $request->user();
 
-        // ✅ firstOrCreate en la tabla pivote — idempotente y sin excepciones por duplicados
         if (!$user->wishlists()->where('card_id', $cardId)->exists()) {
             $user->wishlists()->attach($cardId);
         }
