@@ -15,7 +15,7 @@ use App\Models\ImportRejection;
 class ImportOnePieceCards extends Command
 {
     // Firma del comando: ruta del archivo y código de región (ej. en, fr, jp)
-    protected $signature = 'tcg:import-op {filepath} {region=en}';
+    protected $signature = ' {filepath} {region=en}';
     protected $description = 'Importa cartas masivas de One Piece al Source of Truth con soporte multilingüe, protección de atributos y enrutamiento dinámico de Sets.';
 
     public function handle()

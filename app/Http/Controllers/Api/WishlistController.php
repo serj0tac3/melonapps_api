@@ -4,8 +4,9 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use App\Models\CardTemplate; 
-use App\Http\Resources\CardResource; // 🚀 IMPORTAMOS EL RESOURCE
+use App\Http\Resources\CardResource;
 use Illuminate\Http\Request;
+use Illuminate\Http\JsonResponse;
 
 class WishlistController extends Controller
 {
