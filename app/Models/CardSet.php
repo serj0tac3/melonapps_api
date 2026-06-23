@@ -22,4 +22,17 @@ class CardSet extends Model
     {
         return $this->hasMany(CardSetTranslation::class);
     }
+
+    protected static function boot(): void
+    {
+        parent::boot();
+
+        // Normaliza el código automáticamente antes de cualquier INSERT o UPDATE
+        // Esto protege contra re-imports de scrapers que traigan "OP-15" de nuevo
+        static::saving(function (CardSet $set) {
+            if (!empty($set->code)) {
+                $set->code = str_replace('-', '', $set->code);
+            }
+        });
+    }
 }

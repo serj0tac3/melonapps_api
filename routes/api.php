@@ -7,6 +7,7 @@ use App\Http\Controllers\Api\SetController;
 use App\Http\Controllers\Api\CardController;
 use App\Http\Controllers\Api\CollectionController;
 use App\Http\Controllers\Api\WishlistController;
+use App\Http\Controllers\Api\GameController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,6 +22,8 @@ Route::post('/register', [AuthController::class, 'register']);
 Route::post('/login',    [AuthController::class, 'login']);
 
 // ── Catálogo público ─────────────────────────────────────────────────────
+Route::get('/games', [GameController::class, 'index']);
+
 Route::get('/sets',                  [SetController::class, 'index']);
 Route::get('/sets/{code}/cards',     [SetController::class, 'showCards']);
 

@@ -17,6 +17,7 @@ class CardController extends Controller
         // 1. Configuramos los filtros con Spatie Query Builder sobre el modelo base
         $baseQuery = QueryBuilder::for(CardTemplate::class)
             ->allowedFilters(
+                AllowedFilter::exact('card_set_id'),
                 AllowedFilter::partial('card_number'),
                 AllowedFilter::exact('color', 'attributes->color'),
                 AllowedFilter::exact('category', 'attributes->category'),

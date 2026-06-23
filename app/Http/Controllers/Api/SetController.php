@@ -14,14 +14,28 @@ class SetController extends Controller
 {
     public function index()
     {
-        // Pasamos los filtros de forma variádica (separados por comas) para evitar el TypeError
-        $sets = QueryBuilder::for(CardSet::class)
-            ->with('translations') // Eager loading esencial para evitar lentitud
+        $query = QueryBuilder::for(CardSet::class)
+            ->with('translations')
             ->allowedFilters(
+                AllowedFilter::exact('game_id'), // 🚀 Permitimos filtrar por el ID del juego (las pestañas)
                 AllowedFilter::exact('family'),
                 AllowedFilter::partial('code')
-            )
-            ->get();
+            );
+
+        // Contamos el total de cartas de la expansión
+        $query->withCount('templates');
+
+        // Si hay un usuario logueado, cruzamos los datos con su colección (sin Lazy Loading)
+        if ($userId = auth('sanctum')->id()) {
+            $query->withCount(['templates as owned_count' => function ($q) use ($userId) {
+                $q->whereHas('userCards', function ($q2) use ($userId) {
+                    $q2->where('user_id', $userId)->where('quantity', '>', 0);
+                });
+            }]);
+        }
+
+        // Ordenamos por fecha de salida (las más nuevas arriba, como en tu diseño)
+        $sets = $query->orderByDesc('id')->get();
 
         return SetResource::collection($sets);
     }

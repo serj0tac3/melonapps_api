@@ -6,7 +6,7 @@
       "en": {
         "name": "STARTER DECK-Straw Hat Crew-(Super Pre-Release Version)",
         "release_date": "2022/07/30",
-        "image_url": "/images/sets/en/ST_01_pre_en.webp"
+        "image_url": null
       }
     }
   },
@@ -17,7 +17,7 @@
       "en": {
         "name": "STARTER DECK-Worst Generation-(Super Pre-Release Version)",
         "release_date": "2022/07/30",
-        "image_url": "/images/sets/en/ST_02_pre_en.webp"
+        "image_url": null
       }
     }
   },
@@ -28,7 +28,7 @@
       "en": {
         "name": "STARTER DECK-The Seven Warlords of the Sea-(Super Pre-Release Version)",
         "release_date": "2022/07/30",
-        "image_url": "/images/sets/en/ST_03_pre_en.webp"
+        "image_url": null
       }
     }
   },
@@ -39,7 +39,7 @@
       "en": {
         "name": "STARTER DECK-Animal Kingdom Pirates-(Super Pre-Release Version)",
         "release_date": "2022/07/30",
-        "image_url": "/images/sets/en/ST_04_pre_en.webp"
+        "image_url": null
       }
     }
   },
@@ -50,7 +50,7 @@
       "en": {
         "name": "STARTER DECK-Straw Hat Crew",
         "release_date": "2022/12/02",
-        "image_url": "/images/sets/en/ST_01_en.webp"
+        "image_url": null
       }
     }
   },
@@ -61,7 +61,7 @@
       "en": {
         "name": "STARTER DECK-Worst Generation",
         "release_date": "2022/12/02",
-        "image_url": "/images/sets/en/ST_02_en.webp"
+        "image_url": null
       }
     }
   },
@@ -72,7 +72,7 @@
       "en": {
         "name": "STARTER DECK-The Seven Warlords of the Sea",
         "release_date": "2022/12/02",
-        "image_url": "/images/sets/en/ST_03_en.webp"
+        "image_url": null
       }
     }
   },
@@ -83,7 +83,7 @@
       "en": {
         "name": "STARTER DECK-Animal Kingdom Pirates",
         "release_date": "2022/12/02",
-        "image_url": "/images/sets/en/ST_04_en.webp"
+        "image_url": null
       }
     }
   },
@@ -94,7 +94,7 @@
       "en": {
         "name": "STARTER DECK ONE PIECE FILM edition",
         "release_date": "2023/02/03",
-        "image_url": "/images/sets/en/ST_05.webp"
+        "image_url": null
       }
     }
   },
@@ -105,7 +105,7 @@
       "en": {
         "name": "STARTER DECK -Absolute Justice",
         "release_date": "2023/03/10",
-        "image_url": "/images/sets/en/ST-06.webp"
+        "image_url": null
       }
     }
   },
@@ -116,7 +116,7 @@
       "en": {
         "name": "STARTER DECK -Big Mom Pirates",
         "release_date": "2023/06/30",
-        "image_url": "/images/sets/en/ST_07.webp"
+        "image_url": null
       }
     }
   },
@@ -127,7 +127,7 @@
       "en": {
         "name": "STARTER DECK -Monkey D. Luffy",
         "release_date": "2023/08/11",
-        "image_url": "/images/sets/en/ST_08.webp"
+        "image_url": null
       }
     }
   },
@@ -138,7 +138,7 @@
       "en": {
         "name": "STARTER DECK -Yamato",
         "release_date": "2023/08/11",
-        "image_url": "/images/sets/en/ST_09.webp"
+        "image_url": null
       }
     }
   },
@@ -149,7 +149,7 @@
       "en": {
         "name": "ULTRA DECK -The Three Captains",
         "release_date": "2023/11/10",
-        "image_url": "/images/sets/en/ST_10.webp"
+        "image_url": null
       }
     }
   },
@@ -160,7 +160,7 @@
       "en": {
         "name": "STARTER DECK -Uta",
         "release_date": "2024/02/02",
-        "image_url": "/images/sets/en/ST_11.webp"
+        "image_url": null
       }
     }
   },
@@ -171,7 +171,7 @@
       "en": {
         "name": "STARTER DECK -Zoro and Sanji",
         "release_date": "2024/03/15",
-        "image_url": "/images/sets/en/ST_12.webp"
+        "image_url": null
       }
     }
   },
@@ -182,7 +182,7 @@
       "en": {
         "name": "ULTRA DECK -The Three Brothers",
         "release_date": "2024/04/24",
-        "image_url": "/images/sets/en/ST_13.webp"
+        "image_url": null
       }
     }
   },
@@ -193,7 +193,7 @@
       "en": {
         "name": "STARTER DECK -3D2Y",
         "release_date": "2024/08/16",
-        "image_url": "/images/sets/en/ST_14.webp"
+        "image_url": null
       }
     }
   },
@@ -204,7 +204,7 @@
       "en": {
         "name": "STARTER DECK -RED Edward.Newgate",
         "release_date": "2024/10/25",
-        "image_url": "/images/sets/en/ST_15.webp"
+        "image_url": null
       }
     }
   },
@@ -215,7 +215,7 @@
       "en": {
         "name": "STARTER DECK -GREEN Uta",
         "release_date": "2024/10/25",
-        "image_url": "/images/sets/en/ST_16.webp"
+        "image_url": null
       }
     }
   },
@@ -226,7 +226,7 @@
       "en": {
         "name": "STARTER DECK -BLUE Donquixote Doflamingo",
         "release_date": "2024/10/25",
-        "image_url": "/images/sets/en/ST_17.webp"
+        "image_url": null
       }
     }
   },
@@ -237,7 +237,7 @@
       "en": {
         "name": "STARTER DECK -PURPLE Monkey.D.Luffy",
         "release_date": "2024/10/25",
-        "image_url": "/images/sets/en/ST_18.webp"
+        "image_url": null
       }
     }
   },
@@ -248,7 +248,7 @@
       "en": {
         "name": "STARTER DECK -BLACK Smoker",
         "release_date": "2024/10/25",
-        "image_url": "/images/sets/en/ST_19.webp"
+        "image_url": null
       }
     }
   },
@@ -259,7 +259,7 @@
       "en": {
         "name": "STARTER DECK -YELLOW Charlotte Katakuri",
         "release_date": "2024/10/25",
-        "image_url": "/images/sets/en/ST_20.webp"
+        "image_url": null
       }
     }
   },
@@ -270,7 +270,7 @@
       "en": {
         "name": "STARTER DECK EX -GEAR5",
         "release_date": "2025/03/14",
-        "image_url": "/images/sets/en/ST_21.webp"
+        "image_url": null
       }
     }
   },
@@ -281,7 +281,7 @@
       "en": {
         "name": "STARTER DECK -Ace & Newgate",
         "release_date": "2025/09/05",
-        "image_url": "/images/sets/en/ST_22.webp"
+        "image_url": null
       }
     }
   },
@@ -292,7 +292,7 @@
       "en": {
         "name": "STARTER DECK -RED Shanks",
         "release_date": "2025/06/06",
-        "image_url": "/images/sets/en/ST_23.webp"
+        "image_url": null
       }
     }
   },
@@ -303,7 +303,7 @@
       "en": {
         "name": "STARTER DECK -GREEN Jewelry Bonney",
         "release_date": "2025/06/06",
-        "image_url": "/images/sets/en/ST_24.webp"
+        "image_url": null
       }
     }
   },
@@ -314,7 +314,7 @@
       "en": {
         "name": "STARTER DECK -BLUE Buggy",
         "release_date": "2025/06/06",
-        "image_url": "/images/sets/en/ST_25.webp"
+        "image_url": null
       }
     }
   },
@@ -325,7 +325,7 @@
       "en": {
         "name": "STARTER DECK -PURPLE/BLACK Monkey.D.Luffy",
         "release_date": "2025/06/06",
-        "image_url": "/images/sets/en/ST_26.webp"
+        "image_url": null
       }
     }
   },
@@ -336,7 +336,7 @@
       "en": {
         "name": "STARTER DECK -BLACK Marshall.D.Teach",
         "release_date": "2025/06/06",
-        "image_url": "/images/sets/en/ST_27.webp"
+        "image_url": null
       }
     }
   },
@@ -347,7 +347,7 @@
       "en": {
         "name": "STARTER DECK -GREEN/YELLOW Yamato",
         "release_date": "2025/06/06",
-        "image_url": "/images/sets/en/ST_28.webp"
+        "image_url": null
       }
     }
   },
@@ -358,7 +358,7 @@
       "en": {
         "name": "STARTER DECK -Egghead",
         "release_date": "2026/01/16",
-        "image_url": "/images/sets/en/ST_29.webp"
+        "image_url": null
       }
     }
   },
@@ -369,7 +369,7 @@
       "en": {
         "name": "STARTER DECK EX -Luffy & Ace",
         "release_date": "2026/06/12",
-        "image_url": "/images/sets/en/ST_30.webp"
+        "image_url": null
       }
     }
   },
@@ -380,7 +380,7 @@
       "en": {
         "name": "Learn Together Deck Set",
         "release_date": "2025-10-03",
-        "image_url": "/images/sets/en/LD_01.png"
+        "image_url": null
       }
     }
   },
@@ -391,7 +391,7 @@
       "en": {
         "name": "BOOSTER PACK -ROMANCE DAWN",
         "release_date": "2022/12/02",
-        "image_url": "/images/sets/en/OP_01.webp"
+        "image_url": null
       }
     }
   },
@@ -402,7 +402,7 @@
       "en": {
         "name": "BOOSTER PACK -PARAMOUNT WAR",
         "release_date": "2023/03/10",
-        "image_url": "/images/sets/en/OP_02.webp"
+        "image_url": null
       }
     }
   },
@@ -413,7 +413,7 @@
       "en": {
         "name": "BOOSTER PACK -PILLARS OF STRENGTH",
         "release_date": "2023/06/30",
-        "image_url": "/images/sets/en/OP_03.webp"
+        "image_url": null
       }
     }
   },
@@ -424,7 +424,7 @@
       "en": {
         "name": "BOOSTER PACK -KINGDOMS OF INTRIGUE",
         "release_date": "2023/09/22",
-        "image_url": "/images/sets/en/OP_04.webp"
+        "image_url": null
       }
     }
   },
@@ -435,7 +435,7 @@
       "en": {
         "name": "BOOSTER PACK -AWAKENING OF THE NEW ERA",
         "release_date": "2023/12/08",
-        "image_url": "/images/sets/en/OP_05.webp"
+        "image_url": null
       }
     }
   },
@@ -446,7 +446,7 @@
       "en": {
         "name": "BOOSTER PACK -WINGS OF THE CAPTAIN",
         "release_date": "2024/03/15",
-        "image_url": "/images/sets/en/OP_06.webp"
+        "image_url": null
       }
     }
   },
@@ -457,7 +457,7 @@
       "en": {
         "name": "BOOSTER PACK -500 YEARS IN THE FUTURE",
         "release_date": "2024/06/28",
-        "image_url": "/images/sets/en/OP_07.webp"
+        "image_url": null
       }
     }
   },
@@ -468,7 +468,7 @@
       "en": {
         "name": "BOOSTER PACK -TWO LEGENDS",
         "release_date": "2024/09/13",
-        "image_url": "/images/sets/en/OP_08.webp"
+        "image_url": null
       }
     }
   },
@@ -479,7 +479,7 @@
       "en": {
         "name": "BOOSTER PACK -EMPERORS IN THE NEW WORLD",
         "release_date": "2024/12/13",
-        "image_url": "/images/sets/en/OP_09.webp"
+        "image_url": null
       }
     }
   },
@@ -490,7 +490,7 @@
       "en": {
         "name": "BOOSTER PACK -ROYAL BLOOD",
         "release_date": "2025/03/21",
-        "image_url": "/images/sets/en/OP_10.webp"
+        "image_url": null
       }
     }
   },
@@ -501,7 +501,7 @@
       "en": {
         "name": "BOOSTER PACK -A FIST OF DIVINE SPEED",
         "release_date": "2025/06/06",
-        "image_url": "/images/sets/en/OP_11.webp"
+        "image_url": null
       }
     }
   },
@@ -512,7 +512,7 @@
       "en": {
         "name": "BOOSTER PACK -LEGACY OF THE MASTER",
         "release_date": "2025/08/22",
-        "image_url": "/images/sets/en/OP_12.webp"
+        "image_url": null
       }
     }
   },
@@ -523,7 +523,7 @@
       "en": {
         "name": "BOOSTER PACK -CARRYING ON HIS WILL",
         "release_date": "2025/09/07",
-        "image_url": "/images/sets/en/OP_13.webp"
+        "image_url": null
       }
     }
   },
@@ -534,7 +534,7 @@
       "en": {
         "name": "BOOSTER PACK -THE AZURE SEA’S SEVEN",
         "release_date": "2026/01/16",
-        "image_url": "/images/sets/en/OP_14.webp"
+        "image_url": null
       }
     }
   },
@@ -545,7 +545,7 @@
       "en": {
         "name": "BOOSTER PACK -ADVENTURE ON KAMI’S ISLAND",
         "release_date": "2026/04/03",
-        "image_url": "/images/sets/en/OP_15.webp"
+        "image_url": null
       }
     }
   },
@@ -556,7 +556,7 @@
       "en": {
         "name": "BOOSTER PACK -THE TIME OF BATTLE",
         "release_date": "2026/06/12",
-        "image_url": "/images/sets/en/OP_16.webp"
+        "image_url": null
       }
     }
   },
@@ -567,7 +567,7 @@
       "en": {
         "name": "EXTRA BOOSTER -MEMORIAL COLLECTION",
         "release_date": "2024/03/03",
-        "image_url": "/images/sets/en/OB_01.webp"
+        "image_url": null
       }
     }
   },
@@ -578,7 +578,7 @@
       "en": {
         "name": "EXTRA BOOSTER -Anime 25th Collection",
         "release_date": "2025/03/09",
-        "image_url": "/images/sets/en/OB_02.webp"
+        "image_url": null
       }
     }
   },
@@ -589,7 +589,7 @@
       "en": {
         "name": "EXTRA BOOSTER -ONE PIECE HEROINES EDITION",
         "release_date": "2026/02/20",
-        "image_url": "/images/sets/en/OB_03.webp"
+        "image_url": null
       }
     }
   },
@@ -600,7 +600,7 @@
       "en": {
         "name": "PREMIUM BOOSTER -ONE PIECE CARD THE BEST",
         "release_date": "2024/11/08",
-        "image_url": "/images/sets/en/PRB_01.webp"
+        "image_url": null
       }
     }
   },
@@ -611,7 +611,7 @@
       "en": {
         "name": "PREMIUM BOOSTER -ONE PIECE CARD THE BEST vol.2",
         "release_date": "2025/10/03",
-        "image_url": "/images/sets/en/PRB_02.webp"
+        "image_url": null
       }
     }
   },
@@ -622,7 +622,7 @@
       "en": {
         "name": "Offline Regional Participation Pack 2025 Vol.2",
         "release_date": "2025/10/09",
-        "image_url": "/images/sets/en/.webp"
+        "image_url": null
       }
     }
   },
@@ -633,7 +633,7 @@
       "en": {
         "name": "Offline Regional Finalist Card Set 2025 Vol.2",
         "release_date": "2025/12/23",
-        "image_url": "/images/sets/en/.webp"
+        "image_url": null
       }
     }
   },
@@ -644,7 +644,7 @@
       "en": {
         "name": "Offline Regional Champion Card Set 2025 Vol.2",
         "release_date": "2025/08/01",
-        "image_url": "/images/sets/en/.webp"
+        "image_url": null
       }
     }
   },
@@ -655,7 +655,7 @@
       "en": {
         "name": "Premium Card Collection -Best Selection Vol.6-",
         "release_date": "2025/09/20",
-        "image_url": "/images/sets/en/PR_PCC_6.webp"
+        "image_url": null
       }
     }
   },
@@ -666,7 +666,7 @@
       "en": {
         "name": "ONE PIECE CARD GAME GIFT COLLECTION 2023",
         "release_date": "2023/10/27",
-        "image_url": "/images/sets/en/PR-GC-01.webp"
+        "image_url": null
       }
     }
   },
@@ -677,7 +677,7 @@
       "en": {
         "name": "Premium Card Collection -25th Edition-",
         "release_date": "2023/07/01",
-        "image_url": "/images/sets/en/PR-PCC-25.webp"
+        "image_url": null
       }
     }
   },
@@ -688,7 +688,7 @@
       "en": {
         "name": "Included in Promotion Pack 2022",
         "release_date": "2022/12/9",
-        "image_url": "/images/sets/en/PR-PP-22.webp"
+        "image_url": null
       }
     }
   },
@@ -699,7 +699,7 @@
       "en": {
         "name": "Super Pre-Release",
         "release_date": "2022/09/30",
-        "image_url": "/images/sets/en/PR-SPR.webp"
+        "image_url": null
       }
     }
   },
@@ -710,7 +710,7 @@
       "en": {
         "name": "Offline Regional Participation Pack 2024 Vol. 2",
         "release_date": "2024/06/01",
-        "image_url": "/images/sets/en/PR-ORPP-24-2.webp"
+        "image_url": null
       }
     }
   },
@@ -721,7 +721,7 @@
       "en": {
         "name": "Premium Card Collection -BANDAI CARD GAMES Fest. 23-24 Edition-",
         "release_date": "2024-08-30",
-        "image_url": "/images/sets/en/PR_PCC_FEST2324.webp"
+        "image_url": null
       }
     }
   },
@@ -732,7 +732,7 @@
       "en": {
         "name": "Premium Card Collection -FILM RED Edition-",
         "release_date": "2023-11-24",
-        "image_url": "/images/sets/en/.webp"
+        "image_url": null
       }
     }
   },
@@ -743,7 +743,7 @@
       "en": {
         "name": "Seven Warlords of the Sea Binder Set",
         "release_date": "2025/09/01",
-        "image_url": "/images/sets/en/PR-SWS-BS.webp"
+        "image_url": null
       }
     }
   },
@@ -754,7 +754,7 @@
       "en": {
         "name": "Premium Card Collection -Live Action Edition-",
         "release_date": "2024-04-26",
-        "image_url": "/images/sets/en/PR-PCC-LIVEACTIO.webp"
+        "image_url": null
       }
     }
   },
@@ -765,7 +765,7 @@
       "en": {
         "name": "Tournament Pack Vol.1",
         "release_date": "2022-12-02",
-        "image_url": "/images/sets/en/PR-TP1.webp"
+        "image_url": null
       }
     }
   },
@@ -776,7 +776,7 @@
       "en": {
         "name": "Included in FILM RED Promotion Card Set",
         "release_date": "2022-11-04",
-        "image_url": "/images/sets/en/PR-FR-PCS.webp"
+        "image_url": null
       }
     }
   },
@@ -787,7 +787,7 @@
       "en": {
         "name": "Tournament Pack Vol.7",
         "release_date": "2024-06-28",
-        "image_url": "/images/sets/en/PR-TP7.webp"
+        "image_url": null
       }
     }
   },
@@ -798,7 +798,7 @@
       "en": {
         "name": "Included in Pirates Party Card Vol.1",
         "release_date": "2022-12-02",
-        "image_url": "/images/sets/en/PR_PPC_1.webp"
+        "image_url": null
       }
     }
   },
@@ -809,7 +809,7 @@
       "en": {
         "name": "Sealed Battle 2023 Vol.1",
         "release_date": "2023-11-24",
-        "image_url": "/images/sets/en/PR_SB23_1.webp"
+        "image_url": null
       }
     }
   },
@@ -820,7 +820,7 @@
       "en": {
         "name": "ST-11 Uta Deck Battle Participation Pack",
         "release_date": "2024-02-02",
-        "image_url": "/images/sets/en/PR_ST11_DBPP.webp"
+        "image_url": null
       }
     }
   },
@@ -831,7 +831,7 @@
       "en": {
         "name": "ONE PIECE CARD THE BEST",
         "release_date": "2024-11-08",
-        "image_url": "/images/sets/en/PRB_01.webp"
+        "image_url": null
       }
     }
   },
@@ -842,7 +842,7 @@
       "en": {
         "name": "Pre-Release OP02",
         "release_date": "2023-03-03",
-        "image_url": "/images/sets/en/PR_PRE_OP02.webp"
+        "image_url": null
       }
     }
   },
@@ -853,7 +853,7 @@
       "en": {
         "name": "Included in Pirates Party Card Vol.2",
         "release_date": "2023-05-01",
-        "image_url": "/images/sets/en/PR_PPC_2.webp"
+        "image_url": null
       }
     }
   },
@@ -864,7 +864,7 @@
       "en": {
         "name": "Included in Event Pack Vol.2",
         "release_date": "2023-06-01",
-        "image_url": "/images/sets/en/PR_EP_2.webp"
+        "image_url": null
       }
     }
   },
@@ -875,7 +875,7 @@
       "en": {
         "name": "Included in Event Pack Vol.1",
         "release_date": "",
-        "image_url": "/images/sets/en/PR_EP_1.webp"
+        "image_url": null
       }
     }
   },
@@ -886,7 +886,7 @@
       "en": {
         "name": "Heroines Battle Pack",
         "release_date": "2026-02-28",
-        "image_url": "/images/sets/en/PR_HBP.webp"
+        "image_url": null
       }
     }
   },
@@ -897,7 +897,7 @@
       "en": {
         "name": "Heroines Battle Winner Pack",
         "release_date": "2026-02-28",
-        "image_url": "/images/sets/en/PR_HBWP.webp"
+        "image_url": null
       }
     }
   },
@@ -908,7 +908,7 @@
       "en": {
         "name": "OP15-EB04 Release Event",
         "release_date": "2026-06-26",
-        "image_url": "/images/sets/en/PR_RE_OP15_EB04.webp"
+        "image_url": null
       }
     }
   },
@@ -919,7 +919,7 @@
       "en": {
         "name": "ONE PIECE CARD THE BEST vol.2",
         "release_date": "",
-        "image_url": "/images/sets/en/PRB_02.webp"
+        "image_url": null
       }
     }
   },
@@ -930,7 +930,7 @@
       "en": {
         "name": "Sealed Battle Kit Vol.1",
         "release_date": "",
-        "image_url": "/images/sets/en/PR_SBK_1.webp"
+        "image_url": null
       }
     }
   },
@@ -941,7 +941,7 @@
       "en": {
         "name": "Event Pack Vol.5",
         "release_date": "",
-        "image_url": "/images/sets/en/PR_EP_5.webp"
+        "image_url": null
       }
     }
   },
@@ -952,7 +952,7 @@
       "en": {
         "name": "Pirates Party Vol.3",
         "release_date": "",
-        "image_url": "/images/sets/en/PR_PPC_3.webp"
+        "image_url": null
       }
     }
   },
@@ -963,7 +963,7 @@
       "en": {
         "name": "Pre-Release OP04",
         "release_date": "",
-        "image_url": "/images/sets/en/PR_PRE_OP04.webp"
+        "image_url": null
       }
     }
   },
@@ -974,7 +974,7 @@
       "en": {
         "name": "Anime Expo 2023",
         "release_date": "",
-        "image_url": "/images/sets/en/PR_AX_23.webp"
+        "image_url": null
       }
     }
   },
@@ -985,7 +985,7 @@
       "en": {
         "name": "Pirates Party Vol.4",
         "release_date": "",
-        "image_url": "/images/sets/en/PR_PPC_4.webp"
+        "image_url": null
       }
     }
   },
@@ -996,7 +996,7 @@
       "en": {
         "name": "Pirates Party Vol.5",
         "release_date": "",
-        "image_url": "/images/sets/en/PR_PPC_5.webp"
+        "image_url": null
       }
     }
   },
@@ -1007,7 +1007,7 @@
       "en": {
         "name": "Event Pack Vol.3",
         "release_date": "",
-        "image_url": "/images/sets/en/PR_EP_3.webp"
+        "image_url": null
       }
     }
   },
@@ -1018,7 +1018,7 @@
       "en": {
         "name": "Dreamhack Dallas 2024",
         "release_date": "",
-        "image_url": "/images/sets/en/PR_DHD_24.webp"
+        "image_url": null
       }
     }
   },
@@ -1029,7 +1029,7 @@
       "en": {
         "name": "Pre-Release OP06",
         "release_date": "",
-        "image_url": "/images/sets/en/PR_PRE_OP06.webp"
+        "image_url": null
       }
     }
   },
@@ -1040,7 +1040,7 @@
       "en": {
         "name": "ST15-20 Release Event",
         "release_date": "",
-        "image_url": "/images/sets/en/PR_RE_ST15_20.webp"
+        "image_url": null
       }
     }
   },
@@ -1051,7 +1051,7 @@
       "en": {
         "name": "Pirates Party Vol.6",
         "release_date": "",
-        "image_url": "/images/sets/en/PR_PPC_6.webp"
+        "image_url": null
       }
     }
   },
@@ -1062,7 +1062,7 @@
       "en": {
         "name": "CS 25-26 Event Pack",
         "release_date": "",
-        "image_url": "/images/sets/en/PR_CS2526_EP.webp"
+        "image_url": null
       }
     }
   },
@@ -1073,7 +1073,7 @@
       "en": {
         "name": "CS 25-26 Event Pack Finalist Ver.",
         "release_date": "",
-        "image_url": "/images/sets/en/PR_CS2526_EP_FIN.webp"
+        "image_url": null
       }
     }
   },
@@ -1084,7 +1084,7 @@
       "en": {
         "name": "Pirates Party Vol.7",
         "release_date": "",
-        "image_url": "/images/sets/en/PR_PPC_7.webp"
+        "image_url": null
       }
     }
   },
@@ -1095,7 +1095,7 @@
       "en": {
         "name": "CS 25-26 Top Player Pack 2",
         "release_date": "",
-        "image_url": "/images/sets/en/PR_CS2526_TPP_2.webp"
+        "image_url": null
       }
     }
   },
@@ -1106,7 +1106,7 @@
       "en": {
         "name": "CS 25-26 Finalist Card Set 2",
         "release_date": "",
-        "image_url": "/images/sets/en/PR_CS2526_FIN_2.webp"
+        "image_url": null
       }
     }
   },
@@ -1117,7 +1117,7 @@
       "en": {
         "name": "CS 25-26 Winner Card Set 2",
         "release_date": "",
-        "image_url": "/images/sets/en/PR_CS2526_WIN_2.webp"
+        "image_url": null
       }
     }
   },
@@ -1128,7 +1128,7 @@
       "en": {
         "name": "Event Pack Vol.6",
         "release_date": "",
-        "image_url": "/images/sets/en/PR_EP_6.webp"
+        "image_url": null
       }
     }
   },
@@ -1139,7 +1139,7 @@
       "en": {
         "name": "Pre-Release OP08",
         "release_date": "",
-        "image_url": "/images/sets/en/PR_PRE_OP08.webp"
+        "image_url": null
       }
     }
   },
@@ -1150,7 +1150,7 @@
       "en": {
         "name": "Offline Regional Participation Pack 2025 Vol.1",
         "release_date": "",
-        "image_url": "/images/sets/en/PR_OFFREG_PP_25_1.webp"
+        "image_url": null
       }
     }
   },
@@ -1161,7 +1161,7 @@
       "en": {
         "name": "Offline Regional Finalist Card Set 25-26 Season 1",
         "release_date": "",
-        "image_url": "/images/sets/en/PR_OFFREG_FIN_2526_S1.webp"
+        "image_url": null
       }
     }
   },
@@ -1172,7 +1172,7 @@
       "en": {
         "name": "Offline Regional Champion Card Set 25-26 Season 1",
         "release_date": "",
-        "image_url": "/images/sets/en/PR_OFFREG_CHA_2526_S1.webp"
+        "image_url": null
       }
     }
   },
@@ -1183,7 +1183,7 @@
       "en": {
         "name": "Online Regional Participation Pack 25-26 Season 1",
         "release_date": "",
-        "image_url": "/images/sets/en/PR_ONREG_PP_2526_S1.webp"
+        "image_url": null
       }
     }
   },
@@ -1194,7 +1194,7 @@
       "en": {
         "name": "Online Regional Finalist Card Set 25-26 Season 1",
         "release_date": "",
-        "image_url": "/images/sets/en/PR_ONREG_FIN_2526_S1.webp"
+        "image_url": null
       }
     }
   },
@@ -1205,7 +1205,7 @@
       "en": {
         "name": "Online Regional Champion Card Set 25-26 Season 1",
         "release_date": "",
-        "image_url": "/images/sets/en/PR_ONREG_CHA_2526_S1.webp"
+        "image_url": null
       }
     }
   },
@@ -1216,7 +1216,7 @@
       "en": {
         "name": "OP-11 Release Event",
         "release_date": "",
-        "image_url": "/images/sets/en/PR_RE_OP11.webp"
+        "image_url": null
       }
     }
   },
@@ -1227,7 +1227,7 @@
       "en": {
         "name": "Store 2-on-2 Battle",
         "release_date": "",
-        "image_url": "/images/sets/en/PR_S2O2B.webp"
+        "image_url": null
       }
     }
   },
@@ -1238,7 +1238,7 @@
       "en": {
         "name": "Event Pack vol.7",
         "release_date": "",
-        "image_url": "/images/sets/en/PR_EP_7.webp"
+        "image_url": null
       }
     }
   },
@@ -1249,7 +1249,7 @@
       "en": {
         "name": "OP-12 Release Event",
         "release_date": "",
-        "image_url": "/images/sets/en/PR_RE_OP12.webp"
+        "image_url": null
       }
     }
   },
@@ -1260,7 +1260,7 @@
       "en": {
         "name": "OP14-EB04 Release Event",
         "release_date": "",
-        "image_url": "/images/sets/en/PR_RE_OP14_EB04.webp"
+        "image_url": null
       }
     }
   },
@@ -1271,7 +1271,7 @@
       "en": {
         "name": "Event Pack Vol. 8",
         "release_date": "",
-        "image_url": "/images/sets/en/PR_EP_8.webp"
+        "image_url": null
       }
     }
   },
@@ -1282,7 +1282,7 @@
       "en": {
         "name": "Store Tournament 2025 Vol. 4",
         "release_date": "",
-        "image_url": "/images/sets/en/PR_ST25_4.webp"
+        "image_url": null
       }
     }
   },
@@ -1293,7 +1293,7 @@
       "en": {
         "name": "Tournament Pack 2026 Vol. 2",
         "release_date": "",
-        "image_url": "/images/sets/en/PR_TP26_2.webp"
+        "image_url": null
       }
     }
   },
@@ -1304,7 +1304,7 @@
       "en": {
         "name": "Winner Pack 2026 Vol. 2",
         "release_date": "",
-        "image_url": "/images/sets/en/PR_WP26_2.webp"
+        "image_url": null
       }
     }
   },
@@ -1315,7 +1315,7 @@
       "en": {
         "name": "Pirates Party 2026 Vol. 1",
         "release_date": "",
-        "image_url": "/images/sets/en/PR_PP26_1.webp"
+        "image_url": null
       }
     }
   },
@@ -1326,7 +1326,7 @@
       "en": {
         "name": "OP-16 Release Event",
         "release_date": "",
-        "image_url": "/images/sets/en/PR_RE_OP16.webp"
+        "image_url": null
       }
     }
   },
@@ -1337,7 +1337,7 @@
       "en": {
         "name": "Premium Card Collection -Best Selection Vol.3-",
         "release_date": "",
-        "image_url": "/images/sets/en/PR_PCC_BS3.webp"
+        "image_url": null
       }
     }
   },
@@ -1348,7 +1348,7 @@
       "en": {
         "name": "Illustration Box Vol.6",
         "release_date": "",
-        "image_url": "/images/sets/en/PR_IB_6.webp"
+        "image_url": null
       }
     }
   }
