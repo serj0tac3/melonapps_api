@@ -153,25 +153,26 @@ class CollectionController extends Controller
         $userId = auth('sanctum')->id();
         $setId = $request->get('set_id');
 
-        // Cargamos la relación de traducciones igual que en index()
+        // Cargamos la relación de traducciones
         $query = \App\Models\Wishlist::with(['cardTemplate.translations'])
             ->where('user_id', $userId);
 
         // Filtrado por set desde Angular
         if ($setId) {
             $query->whereHas('cardTemplate', function ($q) use ($setId) {
-                $q->where('card_set_id', $setId); // Ajustado a tu BD
+                $q->where('card_set_id', $setId);
             });
         }
 
-        $wishlistItems = $query->get();
+        // 🚀 CAMBIO 1: Usamos paginate en lugar de get()
+        $wishlistItems = $query->paginate(40);
 
-        // Formateamos los datos para que Angular los reciba igual que en la bóveda
-        $transformed = $wishlistItems->map(function ($wish) {
+        // 🚀 CAMBIO 2: Usamos through en lugar de map para mantener los metadatos de paginación
+        $transformed = $wishlistItems->through(function ($wish) {
             $t = $wish->cardTemplate->translations->first();
             $attrs = $wish->cardTemplate->attributes ?? [];
             return [
-                'card_id'      => $wish->cardTemplate->id, // Lo llamamos card_id para Angular
+                'card_id'      => $wish->cardTemplate->id,
                 'unique_id'    => $wish->cardTemplate->unique_id,
                 'card_number'  => $wish->cardTemplate->card_number,
                 'name'         => $t->name ?? 'Unknown',
@@ -180,9 +181,8 @@ class CollectionController extends Controller
             ];
         });
 
-        return response()->json([
-            'data' => $transformed
-        ]);
+        // 🚀 CAMBIO 3: Devolvemos directamente $transformed (Laravel ya incluye el wrapper 'data')
+        return response()->json($transformed);
     }
 
     /**

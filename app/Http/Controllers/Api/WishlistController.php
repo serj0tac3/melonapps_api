@@ -27,7 +27,7 @@ class WishlistController extends Controller
                 $q->where('user_id', $user->id);
             }])
             ->latest() 
-            ->get();
+            ->paginate(40);
 
         return CardResource::collection($wishlist);
     }
