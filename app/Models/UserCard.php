@@ -11,6 +11,11 @@ class UserCard extends Model
         'card_template_id',
         'quantity',
         'is_foil',
+        'is_favorite',
+    ];
+
+    protected $casts = [
+        'is_favorite' => 'boolean',
     ];
 
     // Relación: Esta carta pertenece a un usuario

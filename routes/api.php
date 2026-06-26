@@ -56,10 +56,11 @@ Route::middleware('auth:sanctum')->group(function () {
     });
 
     // ── Colección ────────────────────────────────────────────────────────
-    Route::get('/collection',              [CollectionController::class, 'index']);
-    Route::post('/collection',             [CollectionController::class, 'store']);
-    Route::patch('/collection/{id}',       [CollectionController::class, 'update']); // ✅ sin /quantity en la URL
-    Route::delete('/collection/{id}',      [CollectionController::class, 'destroy']);
+    Route::get('/collection',                           [CollectionController::class, 'index']);
+    Route::post('/collection',                          [CollectionController::class, 'store']);
+    Route::patch('/collection/{id}',                    [CollectionController::class, 'update']);
+    Route::delete('/collection/{id}',                   [CollectionController::class, 'destroy']);
+    Route::patch('/collection/{userCardId}/favorite',   [CollectionController::class, 'toggleFavorite']);
 
     // ── Bóveda / Dashboard ───────────────────────────────────────────────
     Route::get('/vault/sets-summary',      [CollectionController::class, 'setsSummary']);

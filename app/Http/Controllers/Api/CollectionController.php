@@ -47,6 +47,7 @@ class CollectionController extends Controller
                 'image_url'    => $t->image_url ? asset($t->image_url) : null,
                 'cost'         => $attrs['cost'] ?? '-', // El número naranja arriba a la izquierda
                 'owned_copies' => $uc->quantity,
+                'is_favorite'  => $uc->is_favorite,
             ];
         });
 
@@ -226,6 +227,25 @@ class CollectionController extends Controller
 
         return response()->json([
             'message' => 'Carta eliminada de la wishlist'
+        ]);
+    }
+
+    /**
+     * Alternar el estado de "Favorita" en una carta de la bóveda
+     */
+    public function toggleFavorite(Request $request, $userCardId)
+    {
+        $userCard = UserCard::where('user_id', $request->user()->id)
+            ->where('id', $userCardId)
+            ->firstOrFail();
+
+        // Invertimos el valor actual (si era false, pasa a true y viceversa)
+        $userCard->is_favorite = !$userCard->is_favorite;
+        $userCard->save();
+
+        return response()->json([
+            'message' => $userCard->is_favorite ? 'Marcada como favorita' : 'Quitada de favoritas',
+            'is_favorite' => $userCard->is_favorite
         ]);
     }
 }

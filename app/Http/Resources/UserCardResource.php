@@ -14,8 +14,8 @@ class UserCardResource extends JsonResource
             'id'       => $this->id,
             'quantity' => $this->quantity,
             'is_foil'  => (bool) $this->is_foil,
+            'is_favorite' => (bool) $this->is_favorite,
             
-            // Reutilizamos tu CardResource exacto pasándole la relación cargada
             'card_template' => new CardResource($this->whenLoaded('cardTemplate')),
         ];
     }
